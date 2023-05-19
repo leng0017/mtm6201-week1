@@ -1,7 +1,12 @@
 body {
     font-size: 16px; 
+    background-color: #28cfcf;
 }
 
+header h1 {
+    background-color: #87cefa; 
+    color: #ffffff; 
+}
 #pro-img {
     max-width: 150px;
     height: auto;
@@ -9,15 +14,24 @@ body {
 
 }
 
-#bio {
-    overflow: auto;
+#intro-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+dl {
+    background-color: #87cefa; 
+    padding: 10px; 
 }
 
 dt {
     font-weight: bold;
     font-size: 1.15rem;
+    color: #ffffff;
 }
 
 dd {
     margin-left: 0;
+    color: #ffffff;
 }
