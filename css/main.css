@@ -1,0 +1,23 @@
+body {
+    font-size: 16px; 
+}
+
+#pro-img {
+    max-width: 150px;
+    height: auto;
+    float: left;
+
+}
+
+#bio {
+    overflow: auto;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+dd {
+    margin-left: 0;
+}
